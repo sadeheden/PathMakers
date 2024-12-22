@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Destinations from "./components/Destinations";
 import Adventure from "./components/Adventure";
 import "./styles/App.css";
+import ReviewsSection from "./components/ReviewsSection";
+
 
 const App = () => {
   return (
@@ -43,33 +45,121 @@ const App = () => {
         </div>
       </section>
 
-      {/* Guides Section */}
-      <section className="guides">
-        <h2>Travel Guides</h2>
-        <p>We tell you everything about the best destinations and corners of Europe.</p>
-        <div className="guides-gallery">
-          <img src="/images/guide1.jpg" alt="Guide 1" />
-          <img src="/images/guide2.jpg" alt="Guide 2" />
-          <img src="/images/guide3.jpg" alt="Guide 3" />
-          <img src="/images/guide4.jpg" alt="Guide 4" />
-        </div>
-      </section>
+  
+  {/* Destination Section */}
+  <section className="destination">
+    <h3>Find Your Best Destination</h3>
 
-      {/* Blog Section */}
-      <section className="blog">
-        <h2>Explore Amsterdam</h2>
-        <article>
-          <h3>NYX Nightclub in Amsterdam</h3>
-          <p>NYX is one of the most famous nightclubs in the city...</p>
-          <a href="#">Read more</a>
-        </article>
-        <h2>Blog</h2>
-        <ul>
-          <li>Barcelona in 2 minutes, Barcelona GO!</li>
-          <li>Remembering Berlin in one day</li>
-          <li>Explore Europe in 4 minutes of video</li>
-        </ul>
-      </section>
+    <div className="destination-grid">
+      <div className="card">
+        <img 
+          src="https://www.masa.co.il/wp-content/uploads/2019/04/nature.jpg" 
+          alt="Amazon" 
+        />
+        <p>Amazon</p>
+      </div>
+      <div className="card">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPOzYm_U5m-QKwHZP4CTAKA5WnfuBgyJHeiEJJbBpwe8eSjsq_IqnACigiqnOftAQa-Hc&usqp=CAU" 
+          alt="Rome" 
+        />
+        <p>Rome, Italy</p>
+      </div>
+      <div className="card">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOcEFe0xr7mtuVdHhmdui2p7k908-KxhZdZg&s" 
+          alt="USA" 
+        />
+        <p>USA, Chicago</p>
+      </div>
+      <div className="card">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrpDWvqmZ-SrkS5vit4DcwkLcZtk7OAQyAuA&s" 
+          alt="London" 
+        />
+        <p>UK, London</p>
+      </div>
+    </div>
+  </section>
+
+  {/* Vacation Plan Section */}
+  <section className="vacation-plan">
+    <h3>Best Vacation Plan</h3>
+    <div className="vacation-grid">
+      <div className="card">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZjlWpW_EnMKR9yXQw4LD9v_BAGlpNt86m4A&s" 
+          alt="Rome" 
+        />
+        <p>Rome, Italy - $746</p>
+      </div>
+      <div className="card">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPULcBZZW4ZzfaXrHxafuJkYro3kwEJ7BRvw&s" 
+          alt="Dubai" 
+        />
+        <p>Dubai - $746</p>
+      </div>
+      <div className="card">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOH0imSYs3Jt9J_R9FCVGqp-f-qJpGXrWkew&s" 
+          alt="Chicago" 
+        />
+        <p>USA, Chicago - $746</p>
+      </div>
+      <div className="card">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-IDFDN4ElIqnnJWkPBv_V72Ds7qneGjE8lQ&s" 
+          alt="London" 
+        />
+        <p>UK, London - $746</p>
+      </div>
+    </div>
+  </section>
+
+  <section className="reviews-section">
+  <h2>Trusted by Our Families</h2>
+  <div className="rating-summary">
+    <span>⭐ 5.0 rating of 25 reviews</span>
+    <button className="leave-review">Leave a review</button>
+  </div>
+  <div className="reviews-container">
+    <button className="arrow left">&lt;</button>
+    <div className="review-card">
+      <img src="https://via.placeholder.com/50" alt="User" />
+      <h3>Celeste Toomey</h3>
+      <p><strong>⭐ 5 stars</strong></p>
+      <p>
+        A lovely family-run farm! Their animals are pasture-raised ethically
+        and sustainably... <a href="#">See more</a>
+      </p>
+    </div>
+    <div className="review-card">
+      <img src="https://via.placeholder.com/50" alt="User" />
+      <h3>Nicole Kamrass</h3>
+      <p><strong>⭐ 5 stars</strong></p>
+      <p>
+        I have been getting meat, dairy, and eggs from Little Way Farm for
+        over 3 years... <a href="#">See more</a>
+      </p>
+    </div>
+    <div className="review-card">
+      <h3>Social Proof Summary</h3>
+      <p>
+        Little Way Farm receives overwhelmingly positive reviews for their
+        selection of items, quick delivery... <a href="#">See more</a>
+      </p>
+      <div className="social-icons">
+        <span>💖</span>
+        <span>😊</span>
+        <span>+22</span>
+      </div>
+      <p>Based on 25 customer reviews</p>
+    </div>
+    <button className="arrow right">&gt;</button>
+  </div>
+</section>
+
 
       {/* Footer Section */}
       <footer className="footer">
