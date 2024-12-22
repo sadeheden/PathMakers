@@ -379,3 +379,13 @@ footer {
   font-size: 1.5rem;
 }
 
+
+
+/* תוספת לאפקט Hover לכל התמונות */
+.app-container img {
+  transition: transform 0.3s ease-in-out; /* תזוזה חלקה */
+}
+
+.app-container img:hover {
+  transform: scale(1.1); /* הגדלת התמונה ב-10% בעת ריחוף */
+}
