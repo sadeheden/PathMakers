@@ -27,7 +27,7 @@ const ReviewsSection = () => {
       name: "Emily Davis",
       stars: 4,
       review: "Good quality but a bit pricey.",
-      img: "https://caracol.com.co/resizer/v2/GNZTJUDGBBLURHOBNGD3FGDQPA.jpg?auth=dc4024e9372c5d139a68b684ac676eae4170d07fe3435f1a0902321a9f52eec1&width=736&height=552&quality=70&smart=true",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBnuiN3zeiC5ZWRlS3jL1V3-zwjXdek92WSA&s",
     },
     {
       name: "Chris Lee",
