@@ -33,13 +33,13 @@ const ReviewsSection = () => {
       name: "Chris Lee",
       stars: 5,
       review: "Outstanding customer service!",
-      img: "https://media.istockphoto.com/id/1403319839/photo/happy-man-taking-selfie-using-mobile-phone-at-beach-on-outdoor.jpg?s=612x612&w=0&k=20&c=EQpq_T7dt39Zde1lb5ssBlusdR6GAEsORNQhqVIljVo=",
+      img: "https://media.istockphoto.com/id/1484631693/photo/portrait-of-young-caucasian-man-teenager-18-or-19-years-old-outdoor.jpg?s=612x612&w=0&k=20&c=gAX2wGriOa2VJxYYB-zMY5A2jQB35v7zqI6pImfy9EE=",
     },
     {
       name: "Sarah Brown",
       stars: 4,
       review: "Happy with the purchase overall.",
-      img: "https://i.pinimg.com/736x/ba/5a/63/ba5a63ed76475e8d1ad9204620cef2c9.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlL8W_t21HXgeOJMgQqJ_fjmWD3GRwZO0JMQ&s",
     },
   ];
 
