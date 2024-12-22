@@ -1,2 +1,2 @@
 # PathMakers
- Ai travel company
+ AI travel company
