@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49d18a8b.css",
+    "main.js": "/static/js/main.96aaba3c.js",
+    "static/media/plane-7206856_1920.jpg": "/static/media/plane-7206856_1920.6eae6f37eca2ab677ab7.jpg",
+    "index.html": "/index.html",
+    "main.49d18a8b.css.map": "/static/css/main.49d18a8b.css.map",
+    "main.96aaba3c.js.map": "/static/js/main.96aaba3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49d18a8b.css",
+    "static/js/main.96aaba3c.js"
+  ]
+}
