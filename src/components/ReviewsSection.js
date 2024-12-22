@@ -27,19 +27,19 @@ const ReviewsSection = () => {
       name: "Emily Davis",
       stars: 4,
       review: "Good quality but a bit pricey.",
-      img: "https://i0.wp.com/explore.zoombangla.com/wp-content/uploads/2023/01/202012220842-main.cropped_1608601380.jpg?resize=788%2C443&ssl=1",
+      img: "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9d/Elizabeth_Olsen.jpg/revision/latest/smart/width/250/height/250?cb=20220503021908",
     },
     {
       name: "Chris Lee",
       stars: 5,
       review: "Outstanding customer service!",
-      img: "https://media.istockphoto.com/id/1484631693/photo/portrait-of-young-caucasian-man-teenager-18-or-19-years-old-outdoor.jpg?s=612x612&w=0&k=20&c=gAX2wGriOa2VJxYYB-zMY5A2jQB35v7zqI6pImfy9EE=",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjsV2A7KDyqZtXPYH2VAedJAWGgzzh_9iXjg&s",
     },
     {
       name: "Sarah Brown",
       stars: 4,
       review: "Happy with the purchase overall.",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlL8W_t21HXgeOJMgQqJ_fjmWD3GRwZO0JMQ&s",
+      img: "https://i.pinimg.com/736x/ba/5a/63/ba5a63ed76475e8d1ad9204620cef2c9.jpg",
     },
   ];
 
