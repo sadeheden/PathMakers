@@ -27,7 +27,7 @@ const ReviewsSection = () => {
       name: "Emily Davis",
       stars: 4,
       review: "Good quality but a bit pricey.",
-      img: "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9d/Elizabeth_Olsen.jpg/revision/latest/smart/width/250/height/250?cb=20220503021908",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-8oxWSSqyngy8eoLuDKYY9etsPpl68YDOYxSz-73LVL7223iKfLb5Jtn6xONl-FyZ-o&usqp=CAU",
     },
     {
       name: "Chris Lee",
