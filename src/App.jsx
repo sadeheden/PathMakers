@@ -12,17 +12,15 @@ const App = () => {
   <nav className="navbar">
     <div className="logo">Pathmakers</div>
     <ul className="nav-links">
-      <li>Home</li>
+      <li>Sign on</li>
       <li>About Us</li>
-      <li>Destination</li>
-      <li>Page</li>
-      <li>Blog</li>
+      <li>App</li>
     </ul>
   </nav>
   <div className="header-content">
-    <h1>Explore The Majestic Asia Landscape Now</h1>
-    <p>Feel the experience</p>
-    <button className="join-button">Get Started</button>
+    <h1>Choose your next adventure</h1>
+    <p>Made just for you!</p>
+    <button className="join-button">Chat with Viki</button>
   </div>
 </header>
 

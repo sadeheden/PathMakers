@@ -13,8 +13,8 @@ body {
 /* Header Section */
 .header {
   background: url('/src/assets/images/plane-7206856_1920.jpg') no-repeat center center/cover;
-  color: white;
-  height: 65vh; /* Full viewport height */
+  color: rgba(200, 209, 226, 0.87);
+  height: 67vh; /* Full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Align content to the top and bottom */
@@ -26,12 +26,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .navbar .nav-links {
-  display: flex;
-  gap: 15px;
+  display:flex;
+  gap: 1.8rem;
   list-style: none;
 }
 
@@ -40,7 +40,8 @@ body {
 }
 
 .navbar .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
+
   font-weight: bold;
 }
 
@@ -50,8 +51,8 @@ body {
 }
 
 .header-content h1 {
-  font-size: 3.5rem;
-  margin-bottom: 20px;
+  font-size: 2.8rem;
+  margin-bottom: 60px;
   font-weight: bold;
 }
 
@@ -79,7 +80,7 @@ body {
 .features {
   display: flex;
   justify-content: space-around;
-  padding: 30px 20px;
+  padding: 15px 20px;
   background-color: #f9f9f9;
 }
 
