@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2015 - ANATEK YAPI | All Rights Reserved</p>
+        <p>© 2025 - ANATEK YAPI | All Rights Reserved</p>
         <p>
           No visual or written material on this page can be used without permission.
         </p>
