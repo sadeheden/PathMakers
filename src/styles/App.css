@@ -11,43 +11,68 @@ body {
 }
 
 /* Header Section */
-/* Header Section */
 .header {
   background: url('/src/assets/images/plane-7206856_1920.jpg') no-repeat center center/cover;
   color: white;
-  padding: 100px 20px; /* Reduced padding to move the content up */
+  height: 65vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align content to the top and bottom */
+  padding: 20px; /* Adjust padding for aesthetics */
+  text-align: left;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 20px; /* Reduced padding to shrink vertical spacing */
+  font-size: 1rem;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.navbar .nav-links li {
+  cursor: pointer;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .header-content {
-  margin-top: 20px; /* Reduced margin to pull the main content up */
+  margin-top: auto; /* Push content towards the bottom */
+  margin-left: 20px; /* Align content slightly to the left */
 }
 
-
 .header-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .header-content p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
 }
 
 .join-button {
-  background-color: #f04d4d;
+  background-color: #8f96a5;
   color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
+  padding: 15px 30px;
   font-size: 1rem;
-  border-radius: 5px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+  background-color: #e68900;
 }
 
 /* Features Section */

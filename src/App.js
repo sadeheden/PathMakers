@@ -9,22 +9,22 @@ const App = () => {
     <div className="app-container">
       {/* Header Section */}
       <header className="header">
-        <nav className="navbar">
-          <div className="logo">eurotravel.com</div>
-          <ul className="nav-links">
-            <li>Home</li>
-            <li>Blog</li>
-            <li>Guides</li>
-            <li>Destinations</li>
-            <li>Forum</li>
-          </ul>
-        </nav>
-        <div className="header-content">
-          <h1>Enjoy Europe</h1>
-          <p>Travel, explore, and discover every corner of Europe.</p>
-          <button className="join-button">JOIN EUROTRAVEL</button>
-        </div>
-      </header>
+  <nav className="navbar">
+    <div className="logo">Pathmakers</div>
+    <ul className="nav-links">
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Destination</li>
+      <li>Page</li>
+      <li>Blog</li>
+    </ul>
+  </nav>
+  <div className="header-content">
+    <h1>Explore The Majestic Asia Landscape Now</h1>
+    <p>Feel the experience</p>
+    <button className="join-button">Get Started</button>
+  </div>
+</header>
 
       {/* Features Section */}
       <section className="features">
