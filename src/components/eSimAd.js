@@ -21,15 +21,15 @@ const eSimAd = () => {
       <div className="image">
         <img
           className="chip"
-          src="chip_image_placeholder.png"
+          src="https://simtop.co.il/wp-content/uploads/2023/05/esim.png"
           alt="SIM card chip"
         />
         <div className="drones">
-          <img src="drone_placeholder.png" alt="Drone" />
+          <img src="https://cheapsim.co.il/wp-content/uploads/2024/05/%D7%A2%D7%95%D7%9C%D7%9D-2-8.webp" alt="Drone" />
         </div>
         <img
           className="cityscape"
-          src="cityscape_placeholder.png"
+          src="https://itpweb.s3.eu-west-1.amazonaws.com/istnew%2Ftourist+esim+internet+turkey+istanbul+%283%29.jpg"
           alt="Cityscape"
         />
       </div>
