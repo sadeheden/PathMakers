@@ -63,3 +63,29 @@
   .join-button:hover {
     background-color: #e68900;
   }
+  .destination-grid,
+.vacation-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if there are many items */
+  justify-content: center; /* Center the cards */
+  gap: 20px; /* Add space between cards */
+}
+
+.card {
+  flex: 1 1 calc(25% - 20px); /* Responsive sizing: 4 cards per row */
+  max-width: 200px; /* Optional: Set a max width */
+  text-align: center;
+}
+
+.card img {
+  width: 100%; /* Make the image fit the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+.card p {
+  margin-top: 8px; /* Add space between image and text */
+  font-size: 1rem; /* Adjust font size */
+  color: #333;
+}
