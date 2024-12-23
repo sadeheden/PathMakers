@@ -6,44 +6,31 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
-          <h4>ANATEK YAPI</h4>
+          <h4>PATHMAKERS</h4>
           <ul>
-            <li><a href="#">bout us</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">App</a></li>
+       
           </ul>
         </div>
         <div className="footer-column">
           <h4>OUR SERVICES</h4>
           <ul>
-            <li><a href="#">Scaffold Installation and Dismantling</a></li>
-            <li><a href="#">Sales and Rental</a></li>
-            <li><a href="#">Inspection</a></li>
-            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">App</a></li>
+            <li><a href="#">Chat</a></li>
           </ul>
         </div>
-        <div className="footer-column">
-          <h4>BLOG</h4>
-          <ul>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Files</a></li>
-          </ul>
-        </div>
+    
         <div className="footer-column">
           <h4>CONTACT</h4>
           <ul>
             <li><a href="#">Contact Information</a></li>
-            <li><a href="#">References</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Socal media</a></li>
           </ul>
         </div>
         <div className="footer-column">
-      
-          <div className="social-icons">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
-          </div>
         </div>
       </div>
       <div className="footer-bottom">
