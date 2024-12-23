@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="app-container">
+    <div className="Hero">
         {/* Hero is always displayed */}
         <Hero />
       <Routes>

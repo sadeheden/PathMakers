@@ -9,7 +9,7 @@ const Hero = () => (
       <div className="logo">Pathmakers</div>
       <ul className="nav-links">
         <li>Sign on</li>
-        <li><Link to="AboutUs.jsx">About Us</Link></li>
+        <li><Link to="/about-us">About Us</Link></li>
         <li>App</li>
       </ul>
     </nav>
