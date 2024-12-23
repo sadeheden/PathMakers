@@ -1,0 +1,50 @@
+.app-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    gap: 20px;
+  }
+  
+  .app-content {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .app-content h2 {
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .app-content p {
+    font-size: 1rem;
+    margin: 10px 0 20px;
+  }
+  
+  .app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn-appstore,
+  .btn-playstore {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .app-image {
+    max-width: 300px;
+  }
+  
+  .app-mockup {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
