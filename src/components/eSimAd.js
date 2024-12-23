@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/eSimAd.css";
 
+
 const eSimAd = () => {
   const handleClick = () => {
     alert("Thank you for joining us!");

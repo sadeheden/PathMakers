@@ -4,7 +4,7 @@ import Destinations from "./components/Destinations";
 import Adventure from "./components/Adventure";
 import ReviewsSection from "./components/ReviewsSection";
 import Footer from "./components/Footer"; // Import the Footer component
-import eSimAd from "./components/eSimAd"; // Import the eSimAd component
+import ESimAd from "./components/eSimAd";
 import "./styles/App.css";
 
 const App = () => {
@@ -113,10 +113,11 @@ const App = () => {
       {/* Reviews Section */}
       <ReviewsSection />
 
-      {/* eSimAd Section */}
       <div className="eSimAd-wrapper">
-        <eSimAd /> {/* רכיב ה-eSimAd הוסף כאן */}
-      </div>
+  <ESimAd /> {/* רכיב ה-eSimAd הוסף כאן */}
+  <eSimAd/>
+</div>
+
 
       {/* Footer Section */}
       <Footer />
