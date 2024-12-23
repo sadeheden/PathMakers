@@ -11,9 +11,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="app-container">
-    {/* Include Hero component */}
-    <Hero />
-    <Router>
+      {/* Include Hero component */}
+      <Hero />
+      {/* Only one Router component should be used, no need to include another Router here */}
       <Routes>
         {/* The Hero component will be shown at the root path */}
         <Route path="/" element={<Hero />} />
@@ -21,7 +21,7 @@ const App = () => {
         {/* The About Us page will be shown at "/about-us" */}
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>
-    </Router>
+
       {/* Features Section */}
       <section className="features">
         <div className="feature">
@@ -109,10 +109,8 @@ const App = () => {
       <ReviewsSection />
 
       <div className="eSimAd-wrapper">
-  <ESimAd /> {/* רכיב ה-eSimAd הוסף כאן */}
-  <eSimAd/>
-</div>
-
+        <ESimAd /> {/* רכיב ה-eSimAd הוסף כאן */}
+      </div>
 
       {/* Footer Section */}
       <Footer />
