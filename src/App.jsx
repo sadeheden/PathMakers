@@ -2,9 +2,8 @@ import React from "react";
 import Hero from "./components/Hero";
 import ReviewsSection from "./components/ReviewsSection";
 import Footer from "./components/Footer"; // Import the Footer component
-import ESimAd from "./components/eSimAd"; // Correct import for ESimAd
-import AboutUs from "./components/AboutUs";  // Import AboutUs normally
-import AppSection from "./components/AppSection";  // Rename the import for AppSection
+import ESimAd from "./components/eSimAd";
+import AboutUs from "./AboutUs";
 import "./styles/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
