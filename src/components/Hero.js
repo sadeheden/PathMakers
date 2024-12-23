@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hero = () => (
-  <header className="app-container">
+  <header className="Hero">
       {/* Header Section */}
       <header className="header">
         <nav className="navbar">

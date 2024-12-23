@@ -1,7 +1,5 @@
 import React from "react";
 import Hero from "./components/Hero";
-import Destinations from "./components/Destinations";
-import Adventure from "./components/Adventure";
 import ReviewsSection from "./components/ReviewsSection";
 import Footer from "./components/Footer"; // Import the Footer component
 import ESimAd from "./components/eSimAd";
