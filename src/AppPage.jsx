@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
+import HeroSection from "../components/Hero";
 import AppSection from "../components/AppSection";
 
 const HeroPage = () => {
