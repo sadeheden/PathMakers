@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2025 - Eden and May</p>
+        <p>© 2025 - PathMakers| All Rights Reserved</p>
         <p>
       All rights reserved to us.
         </p>
