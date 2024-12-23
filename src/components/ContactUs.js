@@ -23,7 +23,6 @@ function ContactUs() {
     alert('Message Sent!');
     setForm({ name: '', email: '', message: '' });
   };
-
   return (
     <div className="contact-us">
       <h1>Contact Us</h1>
