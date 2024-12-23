@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section id="about-section">
       {/* About Left */}
       <div className="about-left">
-        <img src="https://www.google.com/imgres?imgurl=https://i.pinimg.com/736x/f0/1d/6d/f01d6db70ce306de63ac7b4dd5c90417.jpg&tbnid=grc60oPrTKZ2KM&vet=1&imgrefurl=https://in.pinterest.com/pin/1098104321638407517/&docid=fPqVOKaBQZUP1M&w=580&h=380&hl=he&source=sh/x/im/m1/3&kgs=c1cad562aeb2d99eg" alt="About Img" />
+        <img src="https://m.media-amazon.com/images/M/MV5BMTFlYThkYTMtOGJhYi00NTEyLWFmY2ItNThhZDA0MTIwMTg0XkEyXkFqcGc@._V1_.jpg" alt="About Img" />
       </div>
 
       {/* About Right */}
