@@ -6,13 +6,22 @@ import ESimAd from "./components/eSimAd"; // Correct import for ESimAd
 import AboutUs from "./components/AboutUs";  // Import AboutUs normally
 import AppSection from "./components/AppSection";  // Rename the import for AppSection
 import "./styles/App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="app-container">
     {/* Include Hero component */}
     <Hero />
-
+    <Router>
+      <Routes>
+        {/* The Hero component will be shown at the root path */}
+        <Route path="/" element={<Hero />} />
+        
+        {/* The About Us page will be shown at "/about-us" */}
+        <Route path="/about-us" element={<AboutUs />} />
+      </Routes>
+    </Router>
       {/* Features Section */}
       <section className="features">
         <div className="feature">

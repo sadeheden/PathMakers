@@ -2,7 +2,7 @@
 import React from "react";
 import "../styles/AboutUs.css"; // Make sure to create a CSS file with the styles provided
 
-const AboutSection = () => {
+const AboutUs = () => {
   return (
     <section id="about-section">
       {/* About Left */}
@@ -81,4 +81,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default AboutUs;
