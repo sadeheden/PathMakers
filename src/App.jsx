@@ -10,14 +10,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="app-container">
-      {/* Include Hero component */}
-      <Hero />
-      {/* Only one Router component should be used, no need to include another Router here */}
+        {/* Hero is always displayed */}
+        <Hero />
       <Routes>
-        {/* The Hero component will be shown at the root path */}
-        <Route path="/" element={<Hero />} />
-        
-        {/* The About Us page will be shown at "/about-us" */}
+        {/* Define other routes */}
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>
 

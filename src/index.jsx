@@ -1,18 +1,22 @@
-// index.js
 import React from "react";
-import ReactDOM from "react-dom/client";  // For React 18+
+import ReactDOM from "react-dom/client";
 import App from "./App";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./styles/App.css";
 import process from "process";
 
-
-// Create the root using the new method for React 18+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+// Define React Router future flags
+const futureFlags = {
+    v7_startTransition: true,
+    v7_relativeSplatPath: true,
+};
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <Router future={futureFlags}> {/* Add the future flags here */}
+            <App />
+        </Router>
+    </React.StrictMode>
 );
