@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import ReviewsSection from "./components/ReviewsSection";
 import Footer from "./components/Footer"; // Import the Footer component
 import ESimAd from "./components/eSimAd";
+import AboutUs from "./AboutUs";
 import "./styles/App.css";
 
 const App = () => {
