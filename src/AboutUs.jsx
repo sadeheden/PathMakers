@@ -1,9 +1,9 @@
-// App.js
+// AboutUS.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePage from "./App"; // Replace with your actual homepage component
 
-const App = () => {
+const AboutUs = () => {
   return (
     <Router>
       <div>
@@ -29,4 +29,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AboutUs;

@@ -2,7 +2,7 @@ import React from "react";
 import HeroSection from "../components/Hero";
 import AppSection from "../components/AppSection";
 
-const HeroPage = () => {
+const AppSection = () => {
   return (
     <div>
       <HeroSection />
@@ -11,4 +11,4 @@ const HeroPage = () => {
   );
 };
 
-export default HeroPage;
+export default AppSection;
