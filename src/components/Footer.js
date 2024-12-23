@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-column">
           <h4>ANATEK YAPI</h4>
           <ul>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#">bout us</a></li>
             <li><a href="#">Terms of Use</a></li>
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Contact</a></li>
@@ -47,9 +47,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2025 - ANATEK YAPI | All Rights Reserved</p>
+        <p>© 2025 - Eden and May</p>
         <p>
-          No visual or written material on this page can be used without permission.
+      All rights reserved to us.
         </p>
       </div>
     </footer>
